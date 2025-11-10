@@ -7,7 +7,7 @@ import teTranslation from '../locales/te/translation.json';
 
 i18n
   .use(initReactI18next)
-  .init(({
+  .init({
     resources: {
       en: {
         translation: enTranslation
@@ -24,6 +24,6 @@ i18n
     interpolation: {
       escapeValue: false
     }
-  }))
+  })
 
 export default i18n

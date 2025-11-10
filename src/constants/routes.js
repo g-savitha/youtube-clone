@@ -3,7 +3,7 @@ export const ROUTES = {
   VIDEO: '/video/:id',
   SHORTS: '/shorts',
   SUBSCRIPTIONS: '/subscriptions',
-  YOUTUBE_MUSIC: 'youtube-music',
+  YOUTUBE_MUSIC: '/youtube-music',
   HISTORY: '/history',
   YOUR_VIDEOS: '/your-videos',
   YOUR_COURSES: '/your-courses',
